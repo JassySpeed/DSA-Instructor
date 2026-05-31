@@ -5,7 +5,7 @@ const questionInput = document.getElementById('questionInput');
 
         // IMPORTANT: Replace with your actual Google Generative AI API Key
         // For production, consider using a backend to proxy API calls to hide your key.
-        const GEMINI_API_KEY = "AIzaSyA_mqidYKy1QCxswuX_fr50gQdcuE9aHyM"; // REPLACE THIS!
+        const GEMINI_API_KEY = ""; // PUT API KEY IN THIS QUOTES!
         const MODEL_NAME = "gemini-2.5-flash"; // Using gemini-1.5-flash for potentially faster chat-like responses
 
         const systemInstructionText = `You are a Data Structure and Algorithm Instructor. You will only reply to the problem related
